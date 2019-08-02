@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-user-site-client-side-solution",
+    "id": "d0a2d5e5-05bc-43c5-bcf6-f6217887e447",
+    "version": "1.0.0.5",
+    "includeClientSideAssets": true,
+    "features": [{
+      "title": "sp-user-site-client-side-solution",
+      "description": "sp-user-site-client-side-solution",
+      "id": "523fe887-ced5-4036-b564-8dad5c6c6e24",
+      "version": "1.0.0.5"
+     }]
+    },
+ "paths": {
+ "zippedPackage": "solution/sp-user-site.sppkg"
+ }
+ }

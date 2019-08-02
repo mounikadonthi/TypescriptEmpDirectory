@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+<Field ID="{060E50AC-E9C1-4D3C-B1F9-DE0BCAC300F6}"
+        Name="SPFxFileType"
+        DisplayName="File Type"
+        Type="Text"
+        Required="FALSE"
+        Group="SPFx Columns" />
+
+<Field ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB18}"
+        Name="SPFxFileName"
+        DisplayName="File Name"
+        Type="Text"
+        Required="FALSE"
+        Group="SPFx Columns">
+</Field>
+<Field ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB19}"
+        Name="SPFxTeam"
+        DisplayName="Team"
+        Type="Text"
+        Required="FALSE"
+        Group="SPFx Columns">
+</Field>
+
+<ContentType ID="0x010042D0C1C200A14B6887742B6344675C8B" 
+        Name="Files List" 
+        Group="SPFx Content Types" 
+        Description="Sample content types from web part solution">
+    <FieldRefs>
+        <FieldRef ID="{060E50AC-E9C1-4D3C-B1F9-DE0BCAC300F6}" /> 
+        <FieldRef ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB18}" />
+        <FieldRef ID="{943E7530-5E2B-4C02-8259-CCD93A9ECB19}" />
+    </FieldRefs>
+</ContentType> 
+
+<ListInstance 
+        CustomSchema="schema.xml"
+        FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+        Title="SPFxList" 
+        Description="SPFx List"
+        TemplateType="100"
+        Url="Lists/SPFxList">
+        <Data>
+            <Rows>
+                <Row>
+                <Field Name="Title">Autoexec</Field>
+                <Field Name="SPFxFileName">Autoexec</Field>
+                <Field Name="SPFxFileType">bat</Field>
+                <Field Name="SPFxTeam">Microsoft</Field>
+                </Row>
+                <Row>
+                <Field Name="Title">Config</Field>
+                <Field Name="SPFxFileName">Config</Field>
+                <Field Name="SPFxFileType">sys</Field>
+                <Field Name="SPFxTeam">EMC</Field>
+                </Row>
+                <Row>
+                <Field Name="Title">Hosts</Field>
+                <Field Name="SPFxFileName">Hosts</Field>
+                <Field Name="SPFxFileType">exe</Field>
+                <Field Name="SPFxTeam">Dell</Field>
+                </Row>
+                <Row>
+                <Field Name="Title">Bootstrap</Field>
+                <Field Name="SPFxFileName">Bootstrap</Field>
+                <Field Name="SPFxFileType">js</Field>
+                <Field Name="SPFxTeam">EMC</Field>
+                </Row>
+                <Row>
+                <Field Name="Title">Startup</Field>
+                <Field Name="SPFxFileName">Startup</Field>
+                <Field Name="SPFxFileType">css</Field>
+                <Field Name="SPFxTeam">Dell</Field>
+                </Row>
+            </Rows>
+        </Data>
+</ListInstance>
+
+</Elements>

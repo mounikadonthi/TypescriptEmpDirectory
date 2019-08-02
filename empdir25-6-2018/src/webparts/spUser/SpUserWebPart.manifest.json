@@ -1,0 +1,47 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "17e1c54d-f344-4aef-a072-07dedbcff846",
+  "alias": "SpUserWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "SPUser" },
+    "description": { "default": "Displays the Info about SP User" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "EmployeeDirectory",
+      "onConfigureButtonClicked":false,
+      "UserProps":[{
+        "AlphabetBackgroundColor":"#e9e8e8",
+        "AlphabetTextColor" : "#000000",
+        "Name":"Name",
+        "NodeBackgroundColor":"#2ee0ad",
+        "NodeTextColor" : "#db529b",
+        "ShowAlphabets" :"true",
+        "ShowRoundedCorners":"true",
+        "ShowRoundedImage":"false",
+        "ThemeType":"Default",
+        "Title":"UserPersonaConfigurations",
+        "ViewType":"Tile",
+        "quaternaryText":"Department",
+        "quinaryText":"Title",
+        "secondaryText":"Name",
+        "secondaryTextForCard":"Department",
+        "teritaryTextForCard":"Title",
+        "tertiaryText" :"WorkEmail"
+      }
+      ]
+    }
+  }]
+}

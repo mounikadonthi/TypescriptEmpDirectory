@@ -1,0 +1,672 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+:global .CanvasZone{
+  max-width: 100% !important;
+}
+:global #workbenchPageContent{
+  max-width: 100% !important;
+}
+:global .CanvasSection-col, :global .ControlZone{
+  padding: 0;
+}
+:global{
+  .ms-Panel-content
+  {
+    height: 100%;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    overflow-y: hidden;
+  }
+  .ms-Grid-row
+  {
+   
+    height: 100%
+  }
+  .ms-Grid-col
+  {
+    height: 100%;
+    padding-right: 0px !important;
+  }
+}
+:global 
+{.ms-Panel-contentInner 
+{
+  top:0px !important;
+}
+.ms-Panel-closeButton {
+  display: none;
+}
+}
+
+:global .ms-ColorPicker
+{
+  position: absolute;
+  z-index: 9999;
+  margin-top: -14px;
+}
+:global .ms-Checkbox-checkbox
+{
+  height: 13px;
+  width: 13px;
+  margin-right: 0px !important;
+}
+.LicenceAppInfoComponent
+{
+  .formBlockMsg {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+  }
+  .formMsg {
+    font-size: 14px;
+    padding: 10px 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  .licenceKeyFormFields
+  {
+    font-size: 14px;
+    padding: 10px 225px;
+    display: inline-block;
+  }
+  .licenceKeyCheckBox
+  {
+    width: 280px;
+    margin-left: 52px;
+  }
+  .employeeFormTextFields
+  {
+    width: 250px;
+    padding-bottom: 6px;
+    margin: auto;
+  }
+  .formUserInfo
+  {
+    font-size: 14px;
+    padding: 10px 122px;
+    display: inline-block;
+  }
+  .licenseEmployeeFormButton
+  {
+    width: 200px;
+    color: white !important;
+    background-color: #0072c6 !important;
+    border: none !important;
+    font-size: 14px !important;
+    margin: 10px auto !important;
+    cursor: pointer;
+    display: block;
+  }
+  .marginAUto
+  {
+    margin:auto;
+  }
+  .saketaImageInfoDiv
+  {
+    width: 250px;
+    margin: auto;
+  }
+  .applicationName
+  {
+    color: #0072c6;
+  }
+  .saketaLogo
+  {
+    height: 141px;
+  }
+  .appLicenceInfo
+  {
+    text-align: justify;
+    font-size: 14px;
+  }
+  .floatLeft
+  {
+    float:left;
+  }
+  .floatRight{
+    float:right;
+  }
+  
+  .haveLiceneceButton
+  {
+    background-color: #3775dd;
+    border-bottom: 4px solid #063a93;
+    width: 245px;
+    color: white !important;
+    font-size: 18px !important;
+    margin: 10px 10px !important;
+    cursor: pointer;
+    height: 47px;
+    padding: 0px !important;
+  }
+  .haveLiceneceButton :hover{
+    background-color: #3775dd !important;
+  }
+  .intiateTrailButton
+  {
+    background-color: #b6b8b8;
+    border-bottom: 4px solid #747b81;
+    width: 245px;
+    color: white !important;
+    font-size: 18px !important;
+    margin: 10px 10px !important;
+    cursor: pointer;
+    height: 47px;
+    padding: 0px !important;
+  }
+  .intiateTrailButton :hover{
+    background-color: #b6b8b8 !important;
+  }
+  .licenceInfoDiv
+  {
+    width: 620px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    font-family: segoe UI !important;
+  }
+  .licenceAppInfoDiv
+  {
+    text-align: justify;
+    font-size: 14px;
+    padding: 17px 30px 17px 30px;
+  }
+  
+  .licenceInfo
+  {
+    padding-top: 19px;
+  }
+  .anchorElements{
+    text-decoration: none;
+  }
+  .anchorElements:hover {text-decoration: underline;}
+  
+}
+
+.employeeNodecardicons
+{
+  margin-left: 26%;
+  position: relative;
+  margin-top: -33px;
+}
+.Nodeicons{
+  margin-left: 26%;
+  position: relative;
+  margin-top: -33px;
+}
+.footerButtons
+{
+  position: absolute;
+  bottom: 0;
+  margin-right: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.footerButton
+{
+  float: right;
+  margin-right: 10px;
+}
+.employeecard
+{
+  background-color: #e9e8e8;
+  margin-top: 10px;
+  padding-bottom: 19px !important;
+  width: 339px;
+  height: 84px;
+  padding: 14px;
+  float: left;
+  margin-right: 11px!important;
+}
+.employeecardQuinaryText
+{
+  margin-left:  69px;
+}
+.configurationsCloseButton
+{
+  float: right !important;
+}
+.roundedCorner {
+  border-radius: 15px;
+}
+
+.confugarationsNavigationHeader
+{
+  text-align: left;
+  padding-left: 10px;
+}
+.confugarationsNavigationElement
+{
+  padding: 15px;
+  display: grid;
+  font-weight: 700;
+  border-bottom: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+}
+
+.confugarationsNavigationElement:hover
+{
+  background-color: #333 !important;
+  color: #a6a6a6 !important;
+}
+
+.employeeCardimage
+{
+  width: 76px;
+  height: 78px;
+  border-radius: 50%;
+  margin: auto;
+  float: left;
+  padding-top: 9px;
+}
+
+.employeeCardTitleText
+{
+  font-size: 20px
+}
+
+.employeecardSpan
+{
+  margin-right: 10px;
+  overflow: hidden;
+  padding-bottom: 0!important;
+  width: 239px;
+  display: inline-block!important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 13px;
+}
+.employeecardItem
+{
+  width: 127px;
+  display: inline-block!important;
+  margin-left: 12px;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  padding-bottom: 0px !important;
+  padding-top: 4px;
+
+}
+.employeecardicons
+{
+  margin-left: 26%;
+  position: relative;
+}
+
+
+.employeeTileCardicons
+{
+  margin-left: 38px;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+.employeeTileCardimage
+{
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  float:left;
+}
+.employeeTilecardSpan
+{
+  width: 127px;
+  display: inline-block!important;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.rolesandDepartments{
+  margin-left: 23px !important;
+  margin-bottom: 9px;
+}
+
+.employeeNodeTilecard
+{
+  background-color: #e9e8e8;
+  margin-top: 10px;
+  padding-bottom: 19px!important;
+  padding: 5px;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  float: left;
+  height: 224px;
+  margin-right: 11px!important;
+}
+.CustomCssStyles
+{
+  display: grid;
+  
+}
+.departmentandRoleNames
+{
+  padding-left: 5px
+}
+
+.configurationCancelButtonDiv
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+.configurationCancelButton
+{
+ float: right
+}
+.addPropertiesButton
+{
+  margin-top: 10px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.ConfigurationsPanel
+{
+  display:block
+}
+.NavigationElementDiv
+{
+  color: #a6a6a6 !important;
+}
+
+.configurationsNavigation
+{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.configurations
+{
+  position:relative;
+}
+
+
+
+.configurationsComponent
+{
+ margin: 0px;
+}
+
+.configurationsContent{
+  margin: 0px;
+}
+
+.configurationNavElements
+{
+  display: inline-grid;
+  width: 100%;
+}
+
+.errormessage
+{
+  color: red;
+  font-size: 15px;
+}
+.userPropertiesDelete
+{
+  color:red;
+  float: right
+}
+
+.saveButton
+{
+  margin-right: 8px
+}
+.PersonaProperties
+{
+  display: inline-block;
+  width:100%
+}
+.personaPropertiesWithICons
+{
+      float: left;
+      width: 32%;
+      margin-top: 19px;
+      margin-left: 37px;
+}
+.NavigationElementsDiv
+{
+  margin-left: 17px;
+}
+.configurationCheckBoxes
+{
+  margin-top: 10px;
+}
+.LoggedUserPersona
+{
+  float: right;
+}
+
+.BoldFont
+{
+  font-weight: 900 !important
+}
+.nodeConfigurationsNote
+{
+  margin-left: 41px;
+  width:100%;
+  display: inline-flex;
+}
+.nodeConfigurationsNoteMessage
+{
+  color: red;
+}
+.pointerCursor
+{
+  cursor: pointer;
+}
+.searchBar
+{
+  margin-left: 13px;
+}
+.navigationContent
+{
+  margin-top: 25px;
+}
+.spUser {
+
+.alphabets
+{
+  background-color: rgb(237, 236, 236);
+  color: rgb(0, 0, 0);
+  padding: 5px 13px;
+  font-weight: 500;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+  .employeeTilecard
+  {
+    background-color: #e9e8e8;
+    margin-top: 10px;
+    padding-bottom: 10px!important;
+    padding: 5px;
+    display: inline-grid;
+    float: left;
+    height: 208px;
+    margin-right: 11px!important;
+  }
+  .employeecardDiv
+  {
+    margin: 5px;
+  }
+  .employeeiconsafter{
+    margin-left: 18px;
+    margin-top: 0px;
+    margin-right: 2px;
+  }
+   .employeeicons
+  {
+    margin-left: 26%;
+   
+  }
+  .employeeicon{
+    color: #171125;
+    position: absolute;
+    margin-top: 5px;
+  }
+ 
+ 
+
+  .row {
+    @include ms-Grid-row;
+    // @include ms-fontColor-white;
+    // background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+  .empDepartments
+  {
+    cursor: pointer;
+    display: inline-flex;
+    margin-bottom: 10px;
+  }
+  .empRoles
+  {
+    cursor: pointer;
+    display: inline-flex;
+    margin-bottom: 10px;
+  }
+  .rolesandDepartmentsDiv
+  {
+    display: grid;
+    margin-top: 8px;
+  }
+  .viewmore
+  {
+    color: #0072c6 !important;
+    margin-left: 22px;
+    font-size: 15px;
+    font-weight: 700 !important;
+  }
+  .floatRight
+  {
+    float: right;
+  }
+ .iconsDiv
+ {
+  float: right;
+  display:inline-flex; 
+  cursor: pointer; 
+ }
+ .iconsButtonsDiv
+ {
+  margin-right: 9px;
+ }
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    // @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    // @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    // @include ms-fontColor-white;
+  }
+
+  .personaItem {
+    margin-bottom: 10px;
+  }
+
+  .marginTopSmall {
+    margin-top: 10px;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    // color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+
+    ul {
+      li {
+        list-style: none;
+        display: inline;
+      }
+    }
+    
+    
+  }
+  .userDirectory {
+    margin-left: 10px;
+    border: 1px solid #C5C5C5;
+    margin-top: 10px;
+    height: auto;
+    padding: 10px !important;
+    min-width: 100%;
+  }
+  .list {
+    list-style: none;
+    padding: 0px;
+    .listItem {
+      list-style: none;
+      display: inline;
+      padding: 7px;
+      border: 1px solid #eeeeee;
+      cursor: pointer;
+      &:hover {
+        background-color: grey;
+        text-decoration: underline;
+      }
+    }
+  }
+  .marginBottom {
+    margin-bottom: 20px;
+  }
+}
